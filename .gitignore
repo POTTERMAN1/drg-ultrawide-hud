@@ -145,3 +145,8 @@ Saved/
 # Mod assets: only this mod's folder, never extracted game assets
 !/Content/UltrawideHUD/**/*.uasset
 !/Content/UltrawideHUD/**/*.umap
+
+
+# Build output: compiled locally / in CI, never committed
+/Binaries/
+/Plugins/**/Binaries/
